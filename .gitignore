@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Package manager caches and debug logs
+.pnpm-store/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.agents
+
+# Build and coverage output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.eslintcache
+
+# Generated code
+generated/
+
+# Environment files (keep examples tracked)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs
+logs/
+*.log
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+.vercel
+.env*.local
